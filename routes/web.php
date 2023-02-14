@@ -23,5 +23,9 @@ Route::get('{any}', function () {
     return view('app');
 })->where('any','.*');
 */
+/*
 Route::get('/test', 'App\Http\Controllers\TestController@index');
-
+*/
+/*
+Route::get('/index', 'App\Http\Controllers\TestCRUDController@index');
+*/
